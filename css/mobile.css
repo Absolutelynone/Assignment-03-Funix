@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .award {
+    display: block;
+  }
+  .cer_1 {
+    border-right: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cer_2 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cer_3 {
+    border-bottom: 1px solid #d6c08d;
+    border-top: none;
+  }
+  #certificate {
+    height: 950px;
+  }
+  .floatleft {
+    display: block;
+  }
+  .project_info3 {
+    display: block;
+  }
+  .project_info2 {
+    display: block;
+  }
+  .container-nav {
+    display: block;
+    text-align: left;
+    grid-template-columns: 10% 1fr 1fr 50px 1fr 1fr 10%;
+  }
+  .item3 {
+    grid-column: 4/5;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+    position: relative;
+  }
+  .item1 {
+    grid-column: 2/3;
+    padding-top: 18.75px;
+    padding-bottom: 5px;
+    border-left: none;
+    border-right: none;
+  }
+  .item2 {
+    grid-column: 3/4;
+    padding-top: 18.75px;
+    padding-bottom: 5px;
+    border-right: none;
+  }
+  .item4 {
+    grid-column: 5/6;
+    padding-top: 18.75px;
+    padding-bottom: 5px;
+    border-left: none;
+    border-right: none;
+  }
+  .item5 {
+    grid-column: 6/7;
+    padding-top: 18.75px;
+    padding-bottom: 5px;
+    border-right: none;
+  }
+  #about {
+    display: block;
+    line-height: 25px;
+    margin-top: 0px !important;
+  }
+  #target {
+    background: rgb(218, 218, 218);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #personal-info {
+    background-color: rgba(191, 191, 191);
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
